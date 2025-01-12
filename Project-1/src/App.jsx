@@ -24,23 +24,21 @@ const App = () => {
         animate="show"
         className="grid grid-cols-3 p-10 gap-10"
       >
-        
         <motion.div
           variants={gridSquareVariants}
           className="bg-slate-800 aspect-square rounded-lg flex items-center justify-center gap-10"
         >
-          <motion.div 
-          className="w-20 h-20 bg-stone-100 rounded-lg"
-          initial={{opacity:0, y:100}}
-          animate={{opacity:1, y:0}}
-          transition={{duration:1,ease:"easeOut", delay: 0.2}}
-          >
-          </motion.div>
-          <motion.div 
-          className="w-20 h-20 bg-stone-100 rounded-full"
-          initial={{opacity:0, y:-100}}
-          animate={{opacity:1, y:0}}
-          transition={{duration:1,ease:"easeOut", delay: 0.4}}
+          <motion.div
+            className="w-20 h-20 bg-stone-100 rounded-lg"
+            initial={{ opacity: 0, y: 100 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
+          ></motion.div>
+          <motion.div
+            className="w-20 h-20 bg-stone-100 rounded-full"
+            initial={{ opacity: 0, y: -100 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, ease: "easeOut", delay: 0.4 }}
           ></motion.div>
         </motion.div>
 
@@ -49,42 +47,58 @@ const App = () => {
           variants={gridSquareVariants}
           className="bg-slate-800 aspect-square rounded-lg flex items-center justify-center gap-10"
         >
-          <motion.div 
-          className="w-1/3 h-1/3 shadow-md bg-rose-400"
-          animate={{
-            scale:[1,2,2,1],
-            rotate:[0, 90, 90, 0],
-            borderRadius:["10%","10%","50%","10%"]
-          }}
-          transition={{duration:5,ease:"easeInOut", repeat:2, delay:1}}
+          <motion.div
+            className="w-1/3 h-1/3 shadow-md bg-rose-400"
+            animate={{
+              scale: [1, 2, 2, 1],
+              rotate: [0, 90, 90, 0],
+              borderRadius: ["10%", "10%", "50%", "10%"],
+            }}
+            transition={{ duration: 5, ease: "easeInOut", repeat: 2, delay: 1 }}
           ></motion.div>
         </motion.div>
-
 
         <motion.div
           variants={gridSquareVariants}
           className="bg-slate-800 aspect-square rounded-lg flex items-center justify-center gap-10"
         >
-          <motion.div className="bg-emerald-600 w-1/2 py-4 rounded-lg text-2xl text-gray-100 font-light tracking-wide text-center select-none"
-          whileTap={{scale:0.9}}
-          whileHover={{
-            scale: 1.1,
-            backgroundColor: '#d1d5db',
-            color: '#000'
-          }}
-          transition={{bounceDamping: 10, bounceStiffness: 600}}
-          > Click Me !</motion.div>
+          <motion.div
+            className="bg-emerald-600 w-1/2 py-4 rounded-lg text-2xl text-gray-100 font-light tracking-wide text-center select-none"
+            whileTap={{ scale: 0.9 }}
+            whileHover={{
+              scale: 1.1,
+              backgroundColor: "#d1d5db",
+              color: "#000",
+            }}
+            transition={{ bounceDamping: 10, bounceStiffness: 600 }}
+          >
+            {" "}
+            Click Me !
+          </motion.div>
         </motion.div>
 
+        <motion.div
+          variants={gridSquareVariants}
+          className="bg-slate-800 aspect-square rounded-lg flex items-center justify-center gap-10"
+        >
+          <motion.div
+            drag
+            dragConstraints={{
+              top: -125,
+              right: 125,
+              bottom: 125,
+              left: -125,
+            }}
+            dragTransition={{ bounceStiffness: 600, bounceDamping: 100 }}
+            className="w-1/3 h-1/3 bg-orange-500 rounded-2xl cursor-grab"
+          ></motion.div>
+        </motion.div>
 
         <motion.div
           variants={gridSquareVariants}
           className="bg-slate-800 aspect-square rounded-lg flex items-center justify-center gap-10"
         ></motion.div>
-        <motion.div
-          variants={gridSquareVariants}
-          className="bg-slate-800 aspect-square rounded-lg flex items-center justify-center gap-10"
-        ></motion.div>
+
         <motion.div
           variants={gridSquareVariants}
           className="bg-slate-800 aspect-square rounded-lg flex items-center justify-center gap-10"
