@@ -65,9 +65,15 @@ const App = () => {
           variants={gridSquareVariants}
           className="bg-slate-800 aspect-square rounded-lg flex items-center justify-center gap-10"
         >
-          <motion.div className="bg-emerald-600 w-1/2 py-4 rounded-lg text-2xl text-gray-100 font-light tracking-wide"
-          
-          ></motion.div>
+          <motion.div className="bg-emerald-600 w-1/2 py-4 rounded-lg text-2xl text-gray-100 font-light tracking-wide text-center select-none"
+          whileTap={{scale:0.9}}
+          whileHover={{
+            scale: 1.1,
+            backgroundColor: '#d1d5db',
+            color: '#000'
+          }}
+          transition={{bounceDamping: 10, bounceStiffness: 600}}
+          > Click Me !</motion.div>
         </motion.div>
 
 
