@@ -30,7 +30,7 @@ const HeroSection = () => {
       </div>
       <div className="flex gap-16 pt-12 lg:flex-row flex-col">
         <img className="rounded-xl border-2 border-orange-400" src={Image1} alt="" />
-        <img src={Image2} alt="" />
+        <img className="rounded-xl border-2 border-orange-400" src={Image2} alt="" />
       </div>
     </div>
   );
