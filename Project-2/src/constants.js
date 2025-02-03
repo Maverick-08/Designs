@@ -37,3 +37,42 @@ export const pricingData = [
         features:["Private board sharing","Unlimited Storage","High Performance Network","Private Mode"]
     }
 ]
+
+export const testimonials = [
+    {
+        name:"Abhay Agrawal",
+        profilePhoto: "../assets/person5.jpg",
+        designation:"Full Stack Developer",
+        feedback:"I am extremely satisfied with the services provided. The team was responsive, professional and delivered beyond my expectations."
+    },
+    {
+        name:"Amit Mondal",
+        profilePhoto: "../assets/person4.webp",
+        designation:"Full Stack Developer",
+        feedback:"I am extremely satisfied with the services provided. The team was responsive, professional and delivered beyond my expectations."
+    },
+    {
+        name:"Amul Tiwary",
+        profilePhoto: "../assets/person2.jpg",
+        designation:"ML Engineer",
+        feedback:"I am extremely satisfied with the services provided. The team was responsive, professional and delivered beyond my expectations."
+    },
+    {
+        name:"Brijesh Yadav",
+        profilePhoto: "../assets/person3.jpg",
+        designation:"Cloud Architect",
+        feedback:"I am extremely satisfied with the services provided. The team was responsive, professional and delivered beyond my expectations."
+    },
+    {
+        name:"Manjit Kumbharkar",
+        profilePhoto: "../assets/person6.jpg",
+        designation:"DevOps Engineer",
+        feedback:"I am extremely satisfied with the services provided. The team was responsive, professional and delivered beyond my expectations."
+    },
+    {
+        name:"Saurabh Vishwakarma",
+        profilePhoto: "../assets/person1.jpg",
+        designation:"DevOps Engineer",
+        feedback:"I am extremely satisfied with the services provided. The team was responsive, professional and delivered beyond my expectations."
+    },
+]
