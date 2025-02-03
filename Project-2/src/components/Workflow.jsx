@@ -14,7 +14,7 @@ const Workflow = () => {
         </div>
         <div className='w-full mt-1'>
             {workflowData.map((item,index) => 
-            <div className='mb-12'>
+            <div key={index} className='mb-12'>
               <div className='flex gap-8'>
                 <div>
                   <span className='p-2 text-green-500 bg-neutral-700 flex items-center rounded-full'><FiCheckCircle className='h-8 w-8'/></span>
