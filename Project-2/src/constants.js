@@ -1,3 +1,10 @@
+import person1 from "./assets/person-1.jpg";
+import person2 from "./assets/person-2.webp";
+import person3 from "./assets/person-3.jpg";
+import person4 from "./assets/person-4.jpg";
+import person5 from "./assets/person-5.jpg";
+import person6 from "./assets/person-6.jpg";
+
 export const workflowData = [
     {
         title:"Code merge made easy",
@@ -41,37 +48,37 @@ export const pricingData = [
 export const testimonials = [
     {
         name:"Abhay Agrawal",
-        profilePhoto: "../assets/person5.jpg",
+        profilePhoto: person5,
         designation:"Full Stack Developer",
         feedback:"I am extremely satisfied with the services provided. The team was responsive, professional and delivered beyond my expectations."
     },
     {
         name:"Amit Mondal",
-        profilePhoto: "../assets/person4.webp",
+        profilePhoto: person4,
         designation:"Full Stack Developer",
         feedback:"I am extremely satisfied with the services provided. The team was responsive, professional and delivered beyond my expectations."
     },
     {
         name:"Amul Tiwary",
-        profilePhoto: "../assets/person2.jpg",
+        profilePhoto: person2,
         designation:"ML Engineer",
         feedback:"I am extremely satisfied with the services provided. The team was responsive, professional and delivered beyond my expectations."
     },
     {
         name:"Brijesh Yadav",
-        profilePhoto: "../assets/person3.jpg",
+        profilePhoto: person3,
         designation:"Cloud Architect",
         feedback:"I am extremely satisfied with the services provided. The team was responsive, professional and delivered beyond my expectations."
     },
     {
         name:"Manjit Kumbharkar",
-        profilePhoto: "../assets/person6.jpg",
+        profilePhoto: person6,
         designation:"DevOps Engineer",
         feedback:"I am extremely satisfied with the services provided. The team was responsive, professional and delivered beyond my expectations."
     },
     {
         name:"Saurabh Vishwakarma",
-        profilePhoto: "../assets/person1.jpg",
+        profilePhoto: person1,
         designation:"DevOps Engineer",
         feedback:"I am extremely satisfied with the services provided. The team was responsive, professional and delivered beyond my expectations."
     },
