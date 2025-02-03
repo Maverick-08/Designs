@@ -16,7 +16,7 @@ const Testimonials = () => {
 const TestimonialCard = ({testimonial}) => {
     console.log(testimonial)
     return (
-        <div className='px-6 py-4 bg-neutral-800 rounded-lg'>
+        <div className='px-6 py-4 bg-neutral-800 rounded-lg flex flex-col justify-around'>
             <p className='text-md tracking-wide'>{testimonial.feedback}</p>
             <div className='mt-4 flex gap-6'>
                 <img src={testimonial.profilePhoto} alt="Profile Photo" className='h-12 w-12 rounded-full border border-white'/>
