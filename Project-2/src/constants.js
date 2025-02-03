@@ -56,30 +56,30 @@ export const testimonials = [
         name:"Amit Mondal",
         profilePhoto: person4,
         designation:"Full Stack Developer",
-        feedback:"I am extremely satisfied with the services provided. The team was responsive, professional and delivered beyond my expectations."
+        feedback:"I couldn't be happier with the outcome of our project. The team's creativity and problem solving skills were instrumental in bringing our vision to life."
     },
     {
         name:"Amul Tiwary",
         profilePhoto: person2,
         designation:"ML Engineer",
-        feedback:"I am extremely satisfied with the services provided. The team was responsive, professional and delivered beyond my expectations."
+        feedback:"Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service."
     },
     {
         name:"Brijesh Yadav",
         profilePhoto: person3,
         designation:"Cloud Architect",
-        feedback:"I am extremely satisfied with the services provided. The team was responsive, professional and delivered beyond my expectations."
+        feedback:"Working with the team at XYZ company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!"
     },
     {
         name:"Manjit Kumbharkar",
         profilePhoto: person6,
         designation:"DevOps Engineer",
-        feedback:"I am extremely satisfied with the services provided. The team was responsive, professional and delivered beyond my expectations."
+        feedback:"I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results."
     },
     {
         name:"Saurabh Vishwakarma",
         profilePhoto: person1,
         designation:"DevOps Engineer",
-        feedback:"I am extremely satisfied with the services provided. The team was responsive, professional and delivered beyond my expectations."
+        feedback:"The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in future."
     },
 ]
