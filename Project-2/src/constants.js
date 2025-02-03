@@ -28,7 +28,7 @@ export const pricingData = [
         title:"Pro",
         isPopular: true,
         price:10,
-        features:["Private board sharing","10 Gb Storage","Web Analytics(Advance)","Private Mode"]
+        features:["Private board sharing","10 Gb Storage","Web Analytics (Advance)","Private Mode"]
     },
     {
         title:"Enterprise",
