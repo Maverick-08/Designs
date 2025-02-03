@@ -83,3 +83,18 @@ export const testimonials = [
         feedback:"The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in future."
     },
 ]
+
+export const footerData = [
+    {
+        title:"Resources",
+        links:["Getting Started","Documentation","Tutorials","API Refrences","Community Forums"]
+    },
+    {
+        title:"Platform",
+        links:["Features","Supported Device","System Requirements","Downloads","Release Notes"]
+    },
+    {
+        title:"Community",
+        links:["Events","Meetups","Conferences","Hackathons","Jobs"]
+    }
+]
